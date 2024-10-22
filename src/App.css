@@ -1,0 +1,21 @@
+html, body, #root, .App {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+footer {
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
